@@ -365,6 +365,8 @@
     <script>
         if (navigator.serviceWorker) {
             navigator.serviceWorker.register('sw.js', {scope: '/wadt-asg-2/'})
+        } else {
+            console.log('registration failed');
         }
     </script>
 </body>
