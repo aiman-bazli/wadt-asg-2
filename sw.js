@@ -18,7 +18,6 @@ var URLS = [
   '/wadt-asg-2/js/jquery-2.2.4.min.js',
   '/wadt-asg-2/js/map-active.js',
   '/wadt-asg-2/js/plugins.js',
-  '/wadt-asg-2/js/plugins.js',
   '/wadt-asg-2/js/popper.js',
   '/wadt-asg-2/icons'
 ]
