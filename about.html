@@ -8,6 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
+    <link rel="manifest" href="manifest.json">
+    <link rel="canonical" href="https://aiman-bazli.github.io/wadt-assignment-2/">
+    <link rel="apple-touch-icon" href="img/logo/192.png">
+    <meta name="theme-color" content="blue"/>
+
     <!-- Title -->
     <title>About</title>
 
@@ -372,6 +377,12 @@
     <script src="js/plugins.js"></script>
     <!-- Active js -->
     <script src="js/active.js"></script>
+
+    <script>
+        if (navigator.serviceWorker) {
+            navigator.serviceWorker.register('sw.js', {scope: '/wadt-assignment-2/'})
+        }
+    </script>
 </body>
 
 </html>
