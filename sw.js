@@ -40,7 +40,9 @@ self.addEventListener('install', function (e) {
   e.waitUntil(
     caches.open(CACHE_NAME).then(function (cache) {
       console.log('installing cache : ' + CACHE_NAME)
-      return cache.add(URLS)
+      return cache.addAll(URLS)
+      .then(() => console.log('Assets added to cache'))
+      .catch(err => console.log('Error while fetching assets', err));
     })
   )
 })
