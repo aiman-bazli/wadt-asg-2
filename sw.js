@@ -1,8 +1,7 @@
 var APP_PREFIX = 'WADTBlog'     
 var VERSION = 'version_01'              
 var CACHE_NAME = APP_PREFIX + VERSION
-var URLS = [   
-  '/wadt-asg-2/',   
+var URLS = [      
   '/wadt-asg-2/index.html',    
   '/wadt-asg-2/about.html',
   '/wadt-asg-2/blog.html',    
