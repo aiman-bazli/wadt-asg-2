@@ -2,23 +2,23 @@ var APP_PREFIX = 'WADTBlog'
 var VERSION = 'version_01'              
 var CACHE_NAME = APP_PREFIX + VERSION
 var URLS = [   
-  './',   
-  './index.html',    
-  './about.html',
-  './blog.html',    
-  './style.css',
-  './css/animate.css',
-  './css/bootstrap.min.css',
-  './css/font-awesome.min.css',
-  './css/magnific-popup.css',
-  './css/owl.carousel.min.css',
-  './css/responsive.css',              
-  './js/active.js',
-  './js/bootstrap.min.js',
-  './js/jquery-2.2.4.min.js',
-  './js/map-active.js',
-  './js/plugins.js',
-  './js/popper.js'
+  // './',   
+  // './index.html',    
+  // './about.html',
+  // './blog.html',    
+  // './style.css',
+  // './css/animate.css',
+  // './css/bootstrap.min.css',
+  // './css/font-awesome.min.css',
+  // './css/magnific-popup.css',
+  // './css/owl.carousel.min.css',
+  // './css/responsive.css',              
+  // './js/active.js',
+  // './js/bootstrap.min.js',
+  // './js/jquery-2.2.4.min.js',
+  // './js/map-active.js',
+  // './js/plugins.js',
+  // './js/popper.js'
 ]
 
 self.addEventListener('fetch', function (e) {
