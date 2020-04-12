@@ -2,23 +2,23 @@ var APP_PREFIX = 'WADTBlog'
 var VERSION = 'version_01'              
 var CACHE_NAME = APP_PREFIX + VERSION
 var URLS = [   
-  '/wadt-asg-2/',   
-  '/wadt-asg-2/index.html',    
-  '/wadt-asg-2/about.html',
-  '/wadt-asg-2/blog.html',    
-  '/wadt-asg-2/style.css',
-  '/wadt-asg-2/css/animate.css',
-  '/wadt-asg-2/css/bootstrap.min.css',
-  '/wadt-asg-2/css/font-awesome.min.css',
-  '/wadt-asg-2/css/magnific-popup.css',
-  '/wadt-asg-2/css/owl.carousel.min.css',
-  '/wadt-asg-2/css/responsive.css',              
-  '/wadt-asg-2/js/active.js',
-  '/wadt-asg-2/js/bootstrap.min.js',
-  '/wadt-asg-2/js/jquery-2.2.4.min.js',
-  '/wadt-asg-2/js/map-active.js',
-  '/wadt-asg-2/js/plugins.js',
-  '/wadt-asg-2/js/popper.js'
+  './',   
+  './index.html',    
+  './about.html',
+  './blog.html',    
+  './style.css',
+  './css/animate.css',
+  './css/bootstrap.min.css',
+  './css/font-awesome.min.css',
+  './css/magnific-popup.css',
+  './css/owl.carousel.min.css',
+  './css/responsive.css',              
+  './js/active.js',
+  './js/bootstrap.min.js',
+  './js/jquery-2.2.4.min.js',
+  './js/map-active.js',
+  './js/plugins.js',
+  './js/popper.js'
 ]
 
 self.addEventListener('fetch', function (e) {
